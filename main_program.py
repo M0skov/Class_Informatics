@@ -10,7 +10,7 @@ account.withdraw(200) # Expected: "Insufficient balance"
 account.withdraw(100)
 print(account) # Expected balance: $5
 #SavingsAccount Test Case
-savings = SavingsAccount(200, 0.05) # 5% interest rate
+savings = SavingsAccount(200, 0.02) # 5% interest rate
 savings.deposit(100) # Expected balance: $300
 savings.apply_interest() # Expected balance after interest: $315
 print(savings) # Expected output: $31
