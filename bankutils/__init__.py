@@ -1,1 +1,2 @@
-from .account import BankAccount, SavingsAccount
+from .account import BankAccount
+from .account import SavingsAccount
